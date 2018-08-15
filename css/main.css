@@ -162,7 +162,7 @@ padding-top:-10px;
 
 @media (max-width: 900px) {
     h1 {
-font-size:12pt;
+font-size:40vw;
 line-height: 90%;
 font-family: 'Crimson Text', serif;
 font-style: italic;
@@ -173,7 +173,7 @@ margin-top:-20px;
 		background-color: lightblue;
 	}
 .main {
-		max-width:80vw;
+		max-width:60vw;
 	}
 }
 
