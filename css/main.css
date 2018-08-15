@@ -173,7 +173,7 @@ margin-top:-20px;
 		background-color: lightblue;
 	}
 .main {
-		width:80vw;
+		max-width:80vw;
 	}
 }
 
