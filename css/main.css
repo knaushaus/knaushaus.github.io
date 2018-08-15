@@ -1,3 +1,179 @@
+@media only screen and (max-width: 600px) {
+    h1 {
+font-size:12pt;
+line-height: 90%;
+font-family: 'Crimson Text', serif;
+font-style: italic;
+margin-bottom:-15px;
+margin-top:-20px;
+}
+}
+
+
+
+body {
+	background-color: #ffffff;
+	padding:10pt;
+	margin:auto;
+	text-align: center;
+	margin-bottom:20pt;
+	background-image: url("../img/dust_scratches.png")
+}
+h1 {
+font-size:100pt;
+line-height: 90%;
+font-family: 'Crimson Text', serif;
+font-style: italic;
+margin-bottom:-15px;
+margin-top:-20px;
+}
+h2 {
+font-size:20pt;
+line-height: 80%;
+font-family: 'Crimson Text', serif;
+margin-bottom:-10px;
+text-align:center;
+}
+h3{
+    width:5em;
+    margin-top:-10px;
+    margin-left:20%;
+    background:#DDFFFF;
+}
+
+p {
+font-size: 12pt;
+font-family: 'Crimson Text', serif;
+}
+p.story{
+text-align:justify;
+text-indent:2em;
+line-height: normal;
+ margin-top: 0em;
+  margin-bottom: 0em;
+}
+p.sub{
+text-align:left;
+line-height: normal;
+ margin-top: -1.5em;
+  margin-bottom: 0em;
+  margin-left:22%;
+}
+p.bio{
+text-align:left;
+line-height: normal;
+ margin-top: 1.5em;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+a:active {
+    color: black;
+    text-decoration: none;
+}
+a.head{
+color:888888;
+    text-decoration: none;
+    font-size:12pt;
+}
+a.head:active{
+color:#dddddd;
+    text-decoration: none;
+    font-size:12pt;
+}
+a.head:hover{
+color:#aaaaaa;
+    text-decoration: none;
+    font-size:12pt;
+transition: all .6s ease;
+-webkit-transition: all .6s ease;
+}
+a.story {
+    color: black;
+    text-decoration: underline;
+    font-size:12pt;
+    font-weight: bold;
+}
+a.story:active {
+    color: #cccccc;
+    text-decoration: underline;
+    font-size:12pt;
+    font-weight: bold;
+}
+a.story:hover {
+    color: #888888;
+    text-decoration: underline;
+    font-size:12pt;
+    font-weight: bold;
+transition: all .6s ease;
+-webkit-transition: all .6s ease;
+}
+.top {
+margin:40px auto -15px auto;
+}
+.bottom {
+margin:-15px auto 5px auto;
+}
+.masthead {
+	margin: 10px auto -10px auto;
+	width:100%;
+		background-color: #DDFFFF;
+	}
+.main {
+	padding:8pt 20pt 8pt 20pt;
+	width:60%;
+	margin: 5px auto 10px auto;
+		background-color: #DDFFFF;
+		box-shadow: 5px 5px 2px #aaaaaa;
+		border-style: solid;
+    border-width: 2px;
+	}
+.issue {
+margin: 2em auto 0 auto;
+border-style: solid;
+    border-width: 2px;
+    width:99%;
+    float: left;
+}
+.box {
+float:left;
+margin:5px;
+padding:10px;
+width:45%;
+text-align: left;
+margin-top:-5px;
+}
+.aboutbox {
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+    width:80%;
+padding-left:10px;
+padding-right:10px;
+padding-top:-10px;  
+}
+
+.storybox {
+margin-left:auto;
+margin-right:auto;
+margin-top:0px;
+    width:70%;
+padding-left:10px;
+padding-right:10px;
+padding-top:-10px;  
+}
+
+/* ORIGINAL CSS
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -41,3 +217,5 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+*/
