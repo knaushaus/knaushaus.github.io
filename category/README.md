@@ -1,0 +1,1 @@
+- I don't think you need these files or pages for the unified auto TOC. but they collect the issues into dedicated pages, so that you can make a themed issue page or something. Note you have to create these manually so it is an extra step [bw]
