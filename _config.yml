@@ -1,2 +1,3 @@
 name: KH
 markdown: kramdown
+permalink: /blog/:title
