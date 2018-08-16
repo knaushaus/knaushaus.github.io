@@ -5,19 +5,25 @@ title: TOC
 
 <!--  want to display a list of all my Jekyll posts, organised by category. -->
 
+
 {% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    <ul>
+<div class="issue">
+	<h3><a name="{{ category | first }}">{{ category | first }}</a></h3>
+<p class="sub">august 2018</p>
+<div class="box">
+<h2>fiction</h2>
     {% for posts in category %}
       {% for post in posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <p><a class="story"  href="{{ post.url }}">{{ post.title }}</a></p>
       {% endfor %}
     {% endfor %}
-    </ul>
-  </li>
+</div>
+</div>
+<br style="clear: both;">
+<br>
 {% endfor %}
 
-
+	<!--
 
 <div class="issue">
 <h3>TOC</h3>
@@ -33,3 +39,4 @@ susanna young killin shit left AND right</p>
 </div>
 </div>
 		
+-->
