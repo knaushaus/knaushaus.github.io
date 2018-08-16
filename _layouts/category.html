@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-<h2> This is the content of an issue. </h2> <br>
+<h2> This is the content of an issue, {{ page.category }}? or {{ page.title }}! </h2> <br>
 
 <ul>
 {% for post in site.categories[page.category] %}
