@@ -3,10 +3,12 @@ layout: default
 ---
 
 
-This is the content of an issue.
+<h2> This is the content of an issue. </h2> <br>
 
+<ul>
 {% for post in site.categories[page.category] %}
-    <a href="{{ post.url | absolute_url }}">
+<li>    <a href="{{ post.url | absolute_url }}">
       {{ post.title }}
     </a>
 {% endfor %}
+</ul>
