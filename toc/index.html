@@ -5,38 +5,19 @@ title: TOC
 
 <!--  want to display a list of all my Jekyll posts, organised by category. -->
 
-
 {% for category in site.categories %}
 <div class="issue">
 	<h3><a name="{{ category | first }}">{{ category | first }}</a></h3>
-<p class="sub">august 2018</p>
-<div class="box">
-<h2>fiction</h2>
-    {% for posts in category %}
-      {% for post in posts %}
-        <p><a class="story"  href="{{ post.url }}">{{ post.title }}</a></p>
-      {% endfor %}
-    {% endfor %}
-</div>
+	<p class="sub">august 2018</p>
+	<div class="box">
+		<h2>fiction</h2>
+   			 {% for posts in category %}
+   			   {% for post in posts %}
+    			    <p><a class="story"  href="{{ post.url }}">{{ post.title }}</a></p>
+    			  {% endfor %}
+   			 {% endfor %}
+	</div>
 </div>
 <br style="clear: both;">
 <br>
 {% endfor %}
-
-	<!--
-
-<div class="issue">
-<h3>TOC</h3>
-<div class="aboutbox">
-<p><b>mission statement</b><br>
-KnausHaus is an monthly, online literary journal specializing in sad, strange fiction and essays.
-</p>
-<p><b>fiction editors</b><br>
-zac smith dude woah<br>
-brent "kill you" woo</p>
-<p><b>essay editor</b><br>
-susanna young killin shit left AND right</p>
-</div>
-</div>
-		
--->
